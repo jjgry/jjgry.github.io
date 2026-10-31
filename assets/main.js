@@ -27,5 +27,9 @@ if (header) {
 
 const footer = document.querySelector("[data-site-footer]");
 if (footer) {
-  footer.innerHTML = "<small>&copy; 1992–2026 Calne Running Club</small>";
+  footer.innerHTML = `
+    <small class="copy">&copy; 1992–2026 Calne Running Club</small>
+    <a href="https://www.facebook.com/profile.php?id=61584176430299" aria-label="Calne Running Club on Facebook">
+      <img class="social" src="/assets/images/facebook.png" alt="Facebook" />
+    </a>`;
 }

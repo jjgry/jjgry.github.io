@@ -251,6 +251,14 @@ footer {
   max-width: 800px;
   margin: 0 auto 0;
 }
+footer img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+  vertical-align: text-bottom;
+  filter: grayscale(1) brightness(1.2);
+}
+
 @media (max-width: 560px) {
   header {
     display: grid;
