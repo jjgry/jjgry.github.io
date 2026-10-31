@@ -18,7 +18,7 @@ if (header) {
         <li><a ${navProps("/")}>Home</a></li>
         <li><a ${navProps("/training")}>Training</a></li>
         <li><a ${navProps("/membership")}>Membership</a></li>
-        <li><a ${navProps("/races")}>Fixtues &amp; Results</a></li>
+        <li><a ${navProps("/races")}>Fixtures &amp; Results</a></li>
         <li><a ${navProps("/about")}>About</a></li>
         <li><a ${navProps("/contact")}>Contact</a></li>
       </ul>
