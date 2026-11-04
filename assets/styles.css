@@ -142,11 +142,37 @@ main {
   margin-top: 0.25rem;
   color: var(--color-brand);
 }
+.page-content h3 {
+  margin: 1.25rem 0 0.5rem;
+  color: var(--color-brand);
+  font-size: 1.15rem;
+}
 .eyebrow {
   color: var(--color-brand);
   font-size: 0.82rem;
   font-weight: 800;
   text-transform: uppercase;
+}
+.race-image {
+  margin: 1rem 0;
+}
+.race-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1rem 0;
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 .table-wrap {
   max-width: 100%;
@@ -279,6 +305,11 @@ footer img {
   }
   .page-content {
     padding: 1rem 1rem 1.5rem;
+  }
+  .race-image img {
+    width: 85%;
+    max-width: 420px;
+    margin-inline: auto;
   }
   .home-main {
     min-height: 42vh;
