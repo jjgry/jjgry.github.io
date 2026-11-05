@@ -161,6 +161,11 @@ main {
   width: 100%;
   height: auto;
 }
+.championship-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .video-embed {
   position: relative;
   width: 100%;
@@ -200,6 +205,9 @@ article a p {
   gap: 0.5rem;
   padding: 0.35rem 0;
 }
+.three-cols li {
+  grid-template-columns: 4rem minmax(0, 1fr) minmax(0, 1fr);
+}
 .narrow li {
   grid-template-columns: 4rem minmax(0, 1fr);
 }
@@ -226,11 +234,17 @@ article a p {
 /* Table formatting */
 table {
   width: 100%;
-  overflow-x: auto;
   max-width: 100%;
   margin: 0.75rem 0;
   border-collapse: collapse;
   text-align: left;
+}
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.table-scroll table {
+  min-width: 680px;
 }
 th,
 td {
